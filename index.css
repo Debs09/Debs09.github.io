@@ -80,4 +80,13 @@ h1{
     background-color: ;
     width: 50%;
 }
-
+@media only screen and (max-width:720px){
+ .middle img{
+    clip-path: ellipse(50% 45% at 50% 50%);;
+    height: 40%;
+    position: relative;
+    left: 10%;
+    background-color: blue;
+    border: none;
+}
+}
